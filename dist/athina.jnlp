@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="athina.jnlp">
+  <information>
+    <title>athina</title>
+    <vendor>dimi44</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="athina.jar" size="63343" download="eager" />
+    <jar href="lib\activation-jaf1.1.1.jar" size="56290" download="eager" />
+    <jar href="lib\javax.mail.jar" size="659033" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="athina.Athina"  name="athina" />
+  <update check="always"/>
+</jnlp>

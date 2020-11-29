@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/dimi44/Documents/NetBeansProjects/athina/src/athina/models/Admin.java</file>
+            <file>file:/C:/Users/dimi44/Documents/NetBeansProjects/athina/src/athina/models/Course.java</file>
+            <file>file:/C:/Users/dimi44/Documents/NetBeansProjects/athina/src/athina/controllers/ProfessorMainPage.java</file>
+            <file>file:/C:/Users/dimi44/Documents/NetBeansProjects/athina/src/athina/views/RegisterNewUser.fxml</file>
+            <file>file:/C:/Users/dimi44/Documents/NetBeansProjects/athina/src/athina/controllers/AdminApprovalPageController.java</file>
+            <file>file:/C:/Users/dimi44/Documents/NetBeansProjects/athina/src/athina/controllers/ProfessorMyCoursesController.java</file>
+            <file>file:/C:/Users/dimi44/Documents/NetBeansProjects/athina/src/athina/controllers/CoursesStudentController.java</file>
+            <file>file:/C:/Users/dimi44/Documents/NetBeansProjects/athina/src/athina/Account.java</file>
+            <file>file:/C:/Users/dimi44/Documents/NetBeansProjects/athina/src/athina/controllers/LoginPageController.java</file>
+            <file>file:/C:/Users/dimi44/Documents/NetBeansProjects/athina/src/athina/controllers/RegistrationsPageController.java</file>
+            <file>file:/C:/Users/dimi44/Documents/NetBeansProjects/athina/src/athina/models/SMTP.java</file>
+            <file>file:/C:/Users/dimi44/Documents/NetBeansProjects/athina/src/athina/models/Student.java</file>
+            <file>file:/C:/Users/dimi44/Documents/NetBeansProjects/athina/src/athina/controllers/RegisterNewUserController.java</file>
+            <file>file:/C:/Users/dimi44/Documents/NetBeansProjects/athina/src/athina/models/AitimaDiorthosisGrade.java</file>
+            <file>file:/C:/Users/dimi44/Documents/NetBeansProjects/athina/src/athina/models/CourseRegistration.java</file>
+            <file>file:/C:/Users/dimi44/Documents/NetBeansProjects/athina/src/athina/models/Exam.java</file>
+            <file>file:/C:/Users/dimi44/Documents/NetBeansProjects/athina/src/athina/controllers/MasterPageController.java</file>
+            <file>file:/C:/Users/dimi44/Documents/NetBeansProjects/athina/src/athina/models/Professor.java</file>
+            <file>file:/C:/Users/dimi44/Documents/NetBeansProjects/athina/src/athina/controllers/StudentMainPage.java</file>
+            <file>file:/C:/Users/dimi44/Documents/NetBeansProjects/athina/src/athina/models/User.java</file>
+            <file>file:/C:/Users/dimi44/Documents/NetBeansProjects/athina/src/athina/views/ProfessorMainPage.fxml</file>
+        </group>
+    </open-files>
+</project-private>

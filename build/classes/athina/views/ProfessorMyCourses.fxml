@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="pane" prefHeight="963.0" prefWidth="962.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="athina.controllers.ProfessorMyCoursesController">
+   <children>
+      <Button layoutX="25.0" layoutY="34.0" mnemonicParsing="false" onAction="#backButtonPressed" prefHeight="25.0" prefWidth="142.0" text="Επιστροφη" />
+      <Label layoutX="339.0" layoutY="34.0" prefHeight="36.0" prefWidth="142.0" text="Μαθηματα">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tableCourse" layoutX="152.0" layoutY="122.0" prefHeight="257.0" prefWidth="590.0">
+        <columns>
+          <TableColumn fx:id="courseCol" prefWidth="203.0" text="Μάθημα" />
+          <TableColumn fx:id="semesterCol" prefWidth="64.0" text="Εξάμηνο" />
+            <TableColumn fx:id="idCol" prefWidth="141.0" text="ID" />
+            <TableColumn fx:id="ectsCol" prefWidth="104.0" text="ECTS" />
+        </columns>
+      </TableView>
+      <Button fx:id="exetastikeBtn" layoutX="759.0" layoutY="134.0" mnemonicParsing="false" onAction="#displayExamsCourse" prefHeight="25.0" prefWidth="142.0" text="Εξεταστικες" />
+      <Label fx:id="examLbl" layoutX="192.0" layoutY="408.0" prefHeight="36.0" prefWidth="497.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tableExams" layoutX="167.0" layoutY="472.0" prefHeight="257.0" prefWidth="576.0">
+         <columns>
+            <TableColumn fx:id="typeColumn" prefWidth="135.0" text="Τυπος" />
+            <TableColumn fx:id="yearColumn" prefWidth="132.0" text="Χρονος" />
+         </columns>
+      </TableView>
+      <Button fx:id="selectExamBtn" layoutX="759.0" layoutY="472.0" mnemonicParsing="false" onAction="#displayAMform" prefHeight="25.0" prefWidth="142.0" text="Επιλογη" />
+      <TextField fx:id="amField" layoutX="242.0" layoutY="752.0" prefHeight="34.0" prefWidth="149.0" />
+      <Label fx:id="amLbl" layoutX="167.0" layoutY="752.0" prefHeight="17.0" prefWidth="63.0" text="AM:">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Button fx:id="searchStdBtn" layoutX="455.0" layoutY="752.0" mnemonicParsing="false" onAction="#searchAM" prefHeight="25.0" prefWidth="74.0" text="Ψαξε" />
+      <Label fx:id="errorLbl" layoutX="197.0" layoutY="855.0" prefHeight="36.0" prefWidth="460.0">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

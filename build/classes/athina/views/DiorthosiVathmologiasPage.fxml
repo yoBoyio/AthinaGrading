@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="482.0" prefWidth="680.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="athina.controllers.DiorthosiVathmologiasPage">
+   <children>
+      <Button layoutX="37.0" layoutY="34.0" mnemonicParsing="false" onAction="#backButtonPressed" text="Επιστροφη" />
+      <TableView fx:id="gradeTable" layoutX="50.0" layoutY="88.0" prefHeight="200.0" prefWidth="518.0">
+        <columns>
+          <TableColumn fx:id="amCol" prefWidth="75.0" text="AM" />
+          <TableColumn fx:id="nameCol" prefWidth="84.0" text="Ονομα" />
+            <TableColumn fx:id="surnameCol" prefWidth="93.0" text="Επωνυμο" />
+            <TableColumn fx:id="gradeCol" prefWidth="114.0" text="Βαθμος" />
+        </columns>
+      </TableView>
+      <Label layoutX="57.0" layoutY="321.0" prefHeight="32.0" prefWidth="126.0" text="Νεος Βαθμος:">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="newGradeLbl" layoutX="211.0" layoutY="325.0" prefHeight="25.0" prefWidth="156.0" />
+      <Button layoutX="406.0" layoutY="325.0" mnemonicParsing="false" onAction="#submitNewGrade" text="Υποβολη" />
+      <Label fx:id="errorLbl" layoutX="116.0" layoutY="411.0" prefHeight="27.0" prefWidth="400.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
