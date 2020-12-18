@@ -58,7 +58,8 @@ public class RegistrationsPageController implements Initializable {
     private boolean firstTimeTree = true;
     private int dm = 0;
     private int arithmosMath = 0;
-   
+       private Student student;
+
     SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");
     Date date = new Date();
     
@@ -75,6 +76,8 @@ public class RegistrationsPageController implements Initializable {
         firstTimeTree = false;
     
     }  
+    
+    
     private boolean toExeiDhlwsei(int y){
         Student student = (Student) Athina.user;
         for (int i = 0; i< Account.registrations.length; i++){

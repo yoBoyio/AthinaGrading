@@ -8,7 +8,7 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="athina.jar" size="63343" download="eager" />
+    <jar href="athina.jar" size="61214" download="eager" />
     <jar href="lib\activation-jaf1.1.1.jar" size="56290" download="eager" />
     <jar href="lib\javax.mail.jar" size="659033" download="eager" />
   </resources>

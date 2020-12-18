@@ -24,7 +24,17 @@ public class Student extends User{
         this.am = am;
     }
     
-  
+    public ArrayList<CourseRegistration> getRegistrations() {
+        int i = 0;
+        ArrayList<CourseRegistration> currentRegistrations = new ArrayList<>();
+        while (Account.registrations[i] != null){
+            if(Account.registrations[i].getStudent().equals(this))
+                currentRegistrations.add(Account.registrations[i]);
+            i++;
+        }
+        
+        return currentRegistrations;
+    }
     public CourseRegistration[] getBathmologies(String username){
         CourseRegistration courseRegistration[] = new CourseRegistration[Account.registrations.length];
         int y =0;

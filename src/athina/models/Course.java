@@ -43,8 +43,21 @@ public class Course {
            i++;
        }
     }
-    //todo registration
-   
+ public ArrayList<CourseRegistration> getCurrentRegistrations() {
+        int i = 0;
+        ArrayList<CourseRegistration> registrations = new ArrayList<>();
+        
+        while(Account.registrations[i] != null){
+            if (Account.registrations[i].getCourse() == this){
+                registrations.add(Account.registrations[i]);
+            }
+                
+            i++;
+        }
+        
+        return registrations;
+    }
+       
     
      public String getName() {
         return name;
