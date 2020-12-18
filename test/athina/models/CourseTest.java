@@ -28,14 +28,14 @@ public class CourseTest {
 
     
     @BeforeClass
-    public void setUp() {
+    public static  void  setUp() {
+
          instance = new Course("123", "Μαθηματικά 1", 6, 1,new Professor("vkostogl","123", "Vasileios", "Kostoglou","vkostogl@teithe.gr"));
-        Account account = new Account();
+         Account account = new Account();
+
     }
     
-    @AfterClass
-    public void tearDown() {
-    }
+   
 
     /**
      * Test of setExam method, of class Course.

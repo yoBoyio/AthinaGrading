@@ -5,6 +5,7 @@
  */
 package athina.models;
 
+import athina.Account;
 import java.util.ArrayList;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
@@ -16,6 +17,8 @@ import static org.junit.Assert.*;
  * @author dimi44
  */
 public class ExamTest {
+     private static Course instance ;
+    private Account account;
     
     public ExamTest() {
     }
